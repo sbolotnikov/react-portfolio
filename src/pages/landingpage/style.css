@@ -1,0 +1,272 @@
+.card
+ {
+  background-image: url("https://raw.githubusercontent.com/sbolotnikov/react-portfolio/main/images/office.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.n
+{
+  opacity: 0;
+}
+.glow
+{
+ 
+  color: yellow;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF ;
+}
+.card-img
+{
+  position: relative;
+  margin-bottom: 25%;
+  width: 50%;
+}
+.card-img-overlay
+ {
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 3%;
+} 
+#cloud
+{
+  text-align: center; 
+  background-color:turquoise; 
+  opacity: .75; 
+  border-radius: 10px;
+}
+#facebook {
+  background-color: transparent;
+  color: #4868ad;
+  padding: 0.1rem;
+  
+}
+#linkedin {
+  background-color: transparent;
+  color: #0077ba;
+  padding: 0.1rem;
+  
+}
+#github {
+  background-color: transparent;
+  color: black;
+  padding: 0.1rem;
+  
+}
+
+#HeaderContainer
+{
+  width: 100%;
+  border-bottom: 2px solid grey ;
+  margin-bottom: 15px;
+}
+#Row1
+{
+  background-color: white;
+  opacity: .8;
+  vertical-align: middle;
+}
+#SubRow
+{
+  display: inline-block;
+}
+#Brand
+{
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#59aaa5;
+  opacity: .8;
+  width:100%;
+ 
+}
+#SpaceTab
+{
+  color: transparent;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(231, 230, 230);
+}
+/* Navigation */
+nav
+{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 0px;
+  background-color: transparent;
+}
+.NavP
+{
+  padding: 10px;
+
+}
+h4.card-text
+{
+  text-align:center;
+  color: white;
+  background-color: #59aaa5;
+  width:100%;
+}
+.NavA:active,
+.NavA:hover
+{
+  color: white; 
+  text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em #59aaa5;
+}
+.NavA
+{
+  color: gray;
+  /* background-color: white; */
+  font-size: large;
+}
+main.container
+{
+  border-top: 1px solid grey;
+  padding:0px;
+  /* margin: 0px; */
+  margin-bottom: 50px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 100%;
+}
+/* change color scheme for the button from Contact form */
+ .btn{
+  background-color: #59aaa5;
+  border: 1px solid #59aaa5;
+} 
+#btn1Modal
+{
+  background-color:darkgrey;
+  border: 1px solid darkgrey;
+  color: black; 
+}
+#btn2Modal
+{
+  background-color: #59aaa5;
+  border: 1px solid #59aaa5;
+  color: white;
+
+}
+.sec1
+{
+  background-color: white; 
+  margin: 20px 20px 40px 20px;
+  padding: 15px;
+  max-width: 717px;
+  border:1px solid lightgray; 
+  align-items: flex-start;
+}
+.sec2
+{
+  background-color: white; 
+  margin: 1rem 0rem 0rem 0rem;
+  padding: 1rem, 0rem, 0rem, 3rem;
+  /* max-width: 793px; */
+  border:1px solid lightgray; 
+  align-items: flex-start;
+}
+.portfolioLabel
+{
+  background-color: #59aaa5; 
+  opacity: .8; color: lightgray;
+}
+.head1
+{
+  font-family: 'Times New Roman', Times, serif;
+  /* font-weight: 900; */
+  color: #59aaa5;
+  /* margin: 10px 10px 10px 0px; */
+}
+
+h4.card-text
+{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.footerClass{
+  text-align: center;
+  padding: 25px;
+  background-color: #666666;
+  color:darkgrey;
+  border-top: 2mm solid #59aaa5;
+}
+* {
+  box-sizing: border-box;
+}
+.description
+{
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  margin: 50px auto;
+  width: 85%;
+  background: white;
+  border-radius: 5px;
+  align-items: flex-start;
+  padding: 1rem;
+  display: block;
+  align-self: flex-start;
+}
+.col-md-6
+{
+  display: flex;
+  align-items: center;
+}
+.carousel-inner
+  {
+    width: 95%;
+    /* height: 450px; */
+    
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+
+
+  }
+
+  a.link {
+    position: relative;
+    display: block;
+    /* font-size: 2em;
+    font-weight: 800; */
+    color: royalblue;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, #59aaa5));
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, #59aaa5 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-transition: background-position 500ms ease;
+    transition: background-position 500ms ease;
+    text-decoration: none;
+  }
+  a:hover {
+    background-position: 0 100%;
+  }
