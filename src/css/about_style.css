@@ -1,0 +1,169 @@
+ /* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { */
+  .NavP
+  {
+    font-size: 1.4rem; 
+  }
+.img-wrapper
+{
+ width: 100%;
+ margin: 0 15px 15px 0;
+ text-align: center;
+}
+#btnMenu
+{
+  margin-top: 2rem;
+  display: block;
+}
+#anim
+  {
+    font-size: .8rem;
+  }
+  #cloud
+  {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .follow-me
+   {
+    z-index: 1001;
+    margin-top: 1rem;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: transparent;
+  }
+  .follow-me.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    /* transition: transform 425ms cubic-bezier(.05,.65,.18,1); */
+}
+#labelLink
+  {
+    float: left;
+    margin-right: 5rem;
+
+  }
+  .fab
+  {
+    font-size: 30px;
+  }
+  
+  .card.app {
+    display: block;
+    background: rgb(247, 243, 243);
+    border: white;
+    margin-bottom: 2rem;
+  
+  }
+
+  .card.app:nth-child(even) div.carousel.slide {
+    order: 2;
+  }
+/* Medium devices (tablets, 720px and up) */
+@media (min-width: 768px) 
+{ 
+  .NavP
+  {
+    font-size: 1.9rem; 
+  }
+  #navbarToggleExternalContent{
+    display: block;
+  }
+  #btnMenu
+  {
+    display: none;
+  }
+  .card.app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.img-wrapper
+{
+  width: 50%;
+  float: left;
+}
+#anim
+  {
+    font-size: 1.5rem;
+  }
+  
+  /* #cloud
+  {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  } */
+  .card-img-overlay
+  {
+    margin-bottom: 15%;
+  }
+  #labelLink
+  {
+    display:none;
+  }
+  .follow-me {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  top: 25%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   height: 2.4rem;
+  width:2.4rem; 
+  margin-left:0.1rem;
+  background-color: transparent;
+}
+  .follow-me.a
+  {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    padding-right: 2rem;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+    padding: 1rem;
+
+  }
+  .fab
+  {
+    font-size: 35px;
+  }
+} 
+@media (min-width: 998px) 
+{ 
+  .NavP
+  {
+    font-size: 2.2rem; 
+  }
+  #anim
+  {
+    font-size: 2.4rem;
+  }
+  /* #cloud
+  {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  
+  } */
+  .card-img-overlay
+  {
+    margin-bottom: 10%;
+  }
+} 
+@media (min-width: 1230px) 
+{
+  .card-img-overlay
+  {
+    margin-bottom: 20%;
+  }
+  .NavP
+{
+  font-size: 2.6rem; 
+}
+}

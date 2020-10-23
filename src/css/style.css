@@ -1,6 +1,6 @@
 .card
  {
-  background-image: url("https://raw.githubusercontent.com/sbolotnikov/react-portfolio/main/images/office.jpg");
+  background-image: url("office.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,9 @@ main.container
 .portfolioLabel
 {
   background-color: #59aaa5; 
-  opacity: .8; color: lightgray;
+  opacity: .8; 
+  color: white;
+  border-radius: 4px;
 }
 .head1
 {
