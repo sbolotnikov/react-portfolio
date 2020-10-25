@@ -38,7 +38,7 @@ function Navigation(props) {
                     data-toggle="collapse" data-target="#navbarToggleExternalContent"
                     aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => {
                         if(document.querySelector(".nav-tabs")){
-                        show ? document.querySelector(".nav-tabs").style.display="none" : document.querySelector(".nav-tabs").style.display="flex";
+                        !show ? document.querySelector(".nav-tabs").style.display="none" : document.querySelector(".nav-tabs").style.display="flex";
                         }
                         setShow(!show);
                     }}>
