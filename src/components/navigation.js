@@ -8,7 +8,7 @@ function Navigation(props) {
             <div className={(show ? "show" : "") + " collapse"} id="navbarToggleExternalContent">
                 <div className="row" id="Row1">
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3" id="Brand">
-                        <a title="about" href="/" className="NavA"><span style={{ color: "white" }} className="NavP">Home</span></a>
+                    <Link to="/" className="NavA"><span className="NavP" style={{ color: "white" }}>Home</span></Link>
                     </div>
 
                     <div className="col-12 col-sm-12 col-md-9 col-lg-9">

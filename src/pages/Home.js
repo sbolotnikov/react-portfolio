@@ -20,14 +20,13 @@ function ToRenderEverything() {
         clearInterval(timerInterval);
         return
       }
-      console.log(i,"  ",element.innerHTML )
       element.className = "";
       element.className = "glow"
       if (i > 0) {
         document.querySelector(".glow").classList.remove("glow");
       }
       i++
-      if (i === 213) {
+      if (i === 214) {
         i = 0;
         document.querySelector(".glow").classList.remove("glow");
         clearInterval(timerInterval);
