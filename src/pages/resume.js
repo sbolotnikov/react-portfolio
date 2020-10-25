@@ -64,10 +64,10 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>sbolotnikov@sbolotnikov.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>https://sbolotnikov.github.io/react-portfolio/</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Col>
-
+          
         </Row>
 
       </div>
