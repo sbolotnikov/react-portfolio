@@ -1,23 +1,17 @@
- /* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { */
+#anim
+  {
+    font-size: .6rem;
+  }
   .NavP
   {
     font-size: 1.4rem; 
   }
-.img-wrapper
-{
- width: 100%;
- margin: 0 15px 15px 0;
- text-align: center;
-}
-#btnMenu
-{
-  margin-top: 2rem;
-  display: block;
-}
-#anim
+
+  .img-wrapper
   {
-    font-size: .8rem;
+   width: 100%;
+   margin: 0 15px 15px 0;
+   text-align: center;
   }
   #cloud
   {
@@ -39,8 +33,40 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    /* transition: transform 425ms cubic-bezier(.05,.65,.18,1); */
+   
 }
+a.nav-item.nav-link{
+  color:  #59aaa5;
+  font-size: 1rem;
+}
+a.nav-item.nav-link:active,
+a.nav-item.nav-link:hover
+{
+  color: white; 
+  text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em #59aaa5;
+}
+
+.tab-content{
+  margin-top: 105px;
+}
+.nav-tabs{
+  background-color: white;
+  opacity: .8;
+  margin-top: 94px;
+  align-items: center;
+  max-width: 1440px;
+  margin-left: auto; margin-right: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+
+#btnMenu
+{
+  margin-top: 2.75rem;
+  display: block;
+}
+
 #labelLink
   {
     float: left;
@@ -53,19 +79,70 @@
   }
   
   .card.app {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgb(247, 243, 243);
     border: white;
     margin-bottom: 2rem;
   
   }
+@media (min-width: 400px)
+{
 
-  .card.app:nth-child(even) div.carousel.slide {
-    order: 2;
+
+ /* Exstra Small devices ( up to 576px) */
+
+#anim
+  {
+    font-size: 1.2rem;
   }
-/* Medium devices (tablets, 720px and up) */
+ 
+}
+  @media (min-width: 576px)
+  {
+    .tab-content{
+      margin-top: 110px;
+    }
+    .nav-tabs{
+      margin-top: 108px;
+    }
+    .NavP
+    {
+      font-size: 1.7rem; 
+    }
+  .img-wrapper
+  {
+    height: 50%;
+    float: left;
+   margin: auto;
+   text-align: center;
+  }
+  
+  #anim
+    {
+      font-size: 1.5rem;
+    }
+    #cloud
+    {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) 
 { 
+  .card.app:nth-child(even) :nth-child(1) {
+    order: 2;
+  }
+  a.nav-item.nav-link{
+    font-size: 1.5rem;
+  }
+  .nav-tabs{
+    margin-top: 45px;
+  }
   .NavP
   {
     font-size: 1.9rem; 
@@ -89,14 +166,9 @@
 }
 #anim
   {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
   
-  /* #cloud
-  {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  } */
   .card-img-overlay
   {
     margin-bottom: 15%;
@@ -135,8 +207,14 @@
     font-size: 35px;
   }
 } 
-@media (min-width: 998px) 
+@media (min-width: 1080px) 
 { 
+  .tab-content{
+    margin-top: 100px;
+  }
+  .nav-tabs{
+    margin-top: 62px;
+  }
   .NavP
   {
     font-size: 2.2rem; 
