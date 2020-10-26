@@ -1,0 +1,158 @@
+[
+    {       
+        "animIn": ["flipInX", "bounceInRight"],
+        "animOut": ["flipOutX", "bounceOutRight"],
+        "site": "https://sbolotnikov.github.io/employee-directory-react/",
+        "nameProject": "React Employee Directory",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/sbolotnikov/employee-directory-react",
+        "description" : "This project creates a employee directory with React. It requires to break up application's UI into components, manage component state, and respond to user events. Using faker.js I get a table of random users, when the user loads the page, a table of employees should render. <br /><br /> It would be particularly helpful to be able to filter employees by name, date of birth, email, phone number and sort the table by 4 different categories",
+        "carouselArr" : [
+        {   "link": "./assets/images/EmployeeDirREACT/img1.png",
+            "alt": "First slide",
+            "text": "Overall page look with sorting by phone number ascending"},
+        {   "link": "./assets/images/EmployeeDirREACT/img2.png",
+            "alt": "Second slide",
+            "text": "Example of sorting by email descending" },
+        {   "link": "./assets/images/EmployeeDirREACT/img3.png",
+            "alt": "Third slide",
+            "text": "Example of sorting by name ascending" },
+        {   "link": "./assets/images/EmployeeDirREACT/img4.png",
+            "alt": "Forth slide",
+            "text": "Example of sorting by date of birth ascending" }                   
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInLeft"],
+        "animOut": ["flipOutX", "bounceOutLeft"],
+        "site": "https://afternoon-chamber-99661.herokuapp.com/",
+        "nameProject": "Fitness Tracker",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/sbolotnikov/fitnessTracker",
+        "description" : " Fitness Tracker utilizes MongoDB to track a user's daily exercises. Weekly workout statistics are reflected on Dashboard charts.",
+        "carouselArr" : [
+        {   "link": "./assets/images/Fitness/welcome_screen.png",
+            "alt": "First slide",
+            "text": "Welcome screen"},
+        {   "link": "./assets/images/Fitness/Cardio_input.png",
+            "alt": "Second slide",
+            "text": "Cardio workout input screenshot" },
+        {   "link": "./assets/images/Fitness/resistance_input.png",
+            "alt": "Third slide",
+            "text": "Resistance workout input screenshot" },
+        {   "link": "./assets/images/Fitness/workout_dashboard.png",
+            "alt": "Forth slide",
+            "text": "Workout dashboard screenshot" }                   
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInRight"],
+        "animOut": ["flipOutX", "bounceOutRight"],
+        "site": "https://mighty-oasis-93514.herokuapp.com/",
+        "nameProject": "Online/Offline Budget Trackers",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/sbolotnikov/PWA-Budget-Tracker",
+        "description" : "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. <br /><br /><strong>Offline Functionality:</strong><br />Enter deposits offline,<br />Enter expenses offline<br /><br /><strong>When brought back online:</strong><br />Offline entries should be added to tracker.",
+        "carouselArr" : [
+        {   "link": "./assets/images/BudgetTrack/img1.png",
+            "alt": "First slide",
+            "text": "App screenshot example:"}               
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInLeft"],
+        "animOut": ["flipOutX", "bounceOutLeft"],
+        "site": "https://guarded-hamlet-46204.herokuapp.com/",
+        "nameProject": "Full-stack MMA School",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/mc4506/martial-art-school-management",
+        "description" : "Full Stack MMA School is an application for creating and managing classNamees for a martial arts school. Instructors are able to log in and create classNamees based on user skill level and preference for in-person or virtual lessons, and coordinate className size if constraints are required by local health ordinances. Students and instructors can also post messages and communicate with each other through the platform.",
+        "carouselArr" : [
+        {   "link": "./assets/images/MMASchool/desktop-login.jpg",
+            "alt": "First slide",
+            "text": "Front page on desktop with Google sign in option"},
+        {   "link": "./assets/images/MMASchool/chat.jpg",
+            "alt": "Second slide",
+            "text": "Special Studio Chat named KICKS" },
+        {   "link": "./assets/images/MMASchool/signingToClass.jpg",
+            "alt": "Third slide",
+            "text": "Signing to class as a student" },
+        {   "link": "./assets/images/MMASchool/teacherProfile.jpg",
+            "alt": "Forth slide",
+            "text": "Teacher's Profile check who is present" }                   
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInRight"],
+        "animOut": ["flipOutX", "bounceOutRight"],
+        "site": "https://andrewdalba.github.io/what-is-for-dinner/",
+        "nameProject": "APP: What's For Dinner?",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/andrewdalba/what-is-for-dinner",
+        "description" : "A helpful application to locate restaurants, find recipes, and recipe videos based on the users food preferences and location.",
+        "carouselArr" : [
+        {   "link": "./assets/images/Dinner/2-restaurant-search-results.png",
+            "alt": "First slide",
+            "text": "restaurant search results"},
+        {   "link": "./assets/images/Dinner/4-dish-search-results.png",
+            "alt": "Second slide",
+            "text": "results of search for specific dish" },
+        {   "link": "./assets/images/Dinner/5-details-on-recipe.png",
+            "alt": "Third slide",
+            "text": "detailed look ingridients&how-to recipe" }               
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInLeft"],
+        "animOut": ["flipOutX", "bounceOutLeft"],
+        "site": "https://sbolotnikov.github.io/weather-dashboard/",
+        "nameProject": "Weather-Dashboard",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/sbolotnikov/weather-dashboard",
+        "description" : "An interactive weather application that displays the forecast in a stylish fashion and stores the user's previously searched locations.",
+        "carouselArr" : [
+        {   "link": "./assets/images/Weather/4-list-of-maps-used-switchto-Celsious.png",
+            "alt": "First slide",
+            "text": "List of maps displayed from openweathermap API using leaflet API and openstreetmap tiles and switching to Celsious"},
+        {   "link": "./assets/images/Weather/5-diffrent-city-click.png",
+            "alt": "Second slide",
+            "text": "You can choose diffrent city also it change background from rapidapi API" },
+        {   "link": "./assets/images/Weather/5-diffrent-city-click.png",
+            "alt": "Third slide",
+            "text": "Click on the city to find out weather" },
+        {   "link": "./assets/images/Weather/8-iPAD-look.png",
+            "alt": "Forth slide",
+            "text": "App on Iphone, IPad" }                   
+                                    ]
+    },
+    {       
+        "animIn": ["flipInX", "bounceInLeft"],
+        "animOut": ["flipOutX", "bounceOutLeft"],
+        "site": "",
+        "nameProject": "",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "",
+        "description" : "",
+        "carouselArr" : [
+        {   "link": "",
+            "alt": "First slide",
+            "text": ""},
+        {   "link": "",
+            "alt": "Second slide",
+            "text": "" },
+        {   "link": "",
+            "alt": "Third slide",
+            "text": "" },
+        {   "link": "",
+            "alt": "Forth slide",
+            "text": "" }                   
+                                    ]
+    }                
+]

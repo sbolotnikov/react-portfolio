@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import Pdfread from '../components/pdfRead';
 import Navigation from '../components/navigation';
 import "animate.css/animate.min.css";
-import Skills from '../components/skills';
+// import Skills from '../components/skills';
 
 
 class Resume extends Component {
@@ -23,24 +23,11 @@ class Resume extends Component {
             <a href="./assets/images/Sergey_Bolotnikov_FS_Resume.pdf" target="_blank" rel="noopener noreferrer" download><button
               type="button" id="btn2Modal">Download</button></a>
 
-            <h2>Skills</h2>
+            {/* <h2>Skills</h2>
               <Skills
                 skill="javascript"
                 progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
-
+                /> */}
 
           </Col>
           <Col md={12} lg={4}>
