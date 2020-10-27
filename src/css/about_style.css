@@ -29,7 +29,7 @@
     background-color: transparent;
   }
   .follow-me.a {
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -75,7 +75,7 @@ a.nav-item.nav-link:hover
   }
   .fab
   {
-    font-size: 30px;
+    font-size: 1rem;
   }
   
   .card.app {
@@ -177,7 +177,7 @@ a.nav-item.nav-link:hover
   {
     display:none;
   }
-  .follow-me {
+  /* .follow-me {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -189,8 +189,8 @@ a.nav-item.nav-link:hover
   width:2.4rem; 
   margin-left:0.1rem;
   background-color: transparent;
-}
-  .follow-me.a
+} */
+  /* .follow-me.a
   {
     display: block;
     text-align: center;
@@ -201,10 +201,11 @@ a.nav-item.nav-link:hover
     font-size: 40px;
     padding: 1rem;
 
-  }
+  } */
+  
   .fab
   {
-    font-size: 35px;
+    font-size: 4rem;
   }
 } 
 @media (min-width: 1080px) 

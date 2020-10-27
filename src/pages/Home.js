@@ -1,8 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
-import { Carousel } from 'react-bootstrap';
 import gsap from 'gsap';
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import Navigation from '../components/navigation';
 import Typewriter from '../components/typewriter';
 import projects from "../utils/projects.json";
@@ -24,11 +22,11 @@ function ToRenderEverything() {
       element.className = "";
       element.className = "glow"
       if (i > 0) {
-        console.log(i, "  ", element.innerHTML)
+        // console.log(i, "  ", element.innerHTML)
         document.querySelector(".glow").classList.remove("glow");
       }
       i++
-      if (i === 225) {
+      if (i === 228) {
         i = 0;
         document.querySelector(".glow").classList.remove("glow");
         clearInterval(timerInterval);
@@ -53,20 +51,20 @@ function ToRenderEverything() {
                   <br /> <Typewriter text='I am a full-stack web developer and javascript specialist.' />
                   <br /><strong><Typewriter text=' HTML/CSS | Bootstrap | JavaScript | React ' />
                     <br /><Typewriter text=' NodeJS | Express | MongoDB ' /></strong>
-                  <br /><Typewriter text='Tel.:(917)916-2840' />
-                  <br /><Typewriter text='E-Mail:' />
-                  <a title="Contact Email" href="mailto:sbolotnikov@gmail.com"><Typewriter text='sbolotnikov@gmail.com_' /></a>
-                  <br /><Typewriter text='Social media:' /> 
-                  <a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
+                  <br /><Typewriter text='Tel.:(917)916-2840. ' />
+                  <Typewriter text='E-Mail:' />
+                  <a title="Contact Email" href="mailto:sbolotnikov@gmail.com"><Typewriter text='sbolotnikov@gmail.com' /></a>
+                  <br /><Typewriter text='My networks:' /> 
+                  <span className="n"><a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
                       <span className="fab"><i className="fa fa-facebook-official" aria-hidden="true"></i></span>
-                    </a>
-                    <a id="github" href="https://github.com/sbolotnikov" target="_blank" rel="noopener noreferrer" title="Follow on GitHub">
+                    </a></span>
+                    <span className="n"><a id="github" href="https://github.com/sbolotnikov" target="_blank" rel="noopener noreferrer" title="Follow on GitHub">
                       <span className="fab"><i className="fa fa-github" aria-hidden="true"></i></span>
-                    </a>
-                    <a id="linkedin" href="https://www.linkedin.com/in/sergey-bolotnikov-10035617/" target="_blank" rel="noopener noreferrer"
+                    </a></span>
+                    <span className="n"> <a id="linkedin" href="https://www.linkedin.com/in/sergey-bolotnikov-10035617/" target="_blank" rel="noopener noreferrer"
                       title="Connect on Linkedin">
                       <span className="fab"><i className="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                    </a>
+                    </a></span>
                 </p>
               </figure>
             </div>
@@ -84,20 +82,6 @@ function ToRenderEverything() {
            
           </section>
 
-                  <aside id="aside1" className="follow-me">
-                    <p id="labelLink">Social media:</p>
-                    <a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
-                      <span className="fab"><i className="fa fa-facebook-official" aria-hidden="true"></i></span>
-                    </a>
-                    <a id="github" href="https://github.com/sbolotnikov" target="_blank" rel="noopener noreferrer" title="Follow on GitHub">
-                      <span className="fab"><i className="fa fa-github" aria-hidden="true"></i></span>
-                    </a>
-                    <a id="linkedin" href="https://www.linkedin.com/in/sergey-bolotnikov-10035617/" target="_blank" rel="noopener noreferrer"
-                      title="Connect on Linkedin">
-                      <span className="fab"><i className="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                    </a>
-
-                  </aside>
         </main>
 
                 <footer className="footerclassName">
