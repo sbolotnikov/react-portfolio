@@ -27,7 +27,7 @@ function ToRenderEverything() {
         document.querySelector(".glow").classList.remove("glow");
       }
       i++
-      if (i === 228) {
+      if (i === 227) {
         i = 0;
         document.querySelector(".glow").classList.remove("glow");
         clearInterval(timerInterval);
@@ -53,7 +53,7 @@ function ToRenderEverything() {
                   <br /><strong><Typewriter text=' HTML/CSS | Bootstrap | JavaScript | React ' />
                     <br /><Typewriter text=' NodeJS | Express | MongoDB ' /></strong>
                   <br /><Typewriter text='Tel.:(917)916-2840. ' />
-                  <Typewriter text='E-Mail:' />
+                  <Typewriter text='EMail:' />
                   <a title="Contact Email" href="mailto:sbolotnikov@gmail.com"><Typewriter text='sbolotnikov@gmail.com' /></a>
                   <br /><Typewriter text='My networks:' /> 
                   <a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
