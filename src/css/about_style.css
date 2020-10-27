@@ -87,18 +87,7 @@ a.nav-item.nav-link:hover
     margin-bottom: 2rem;
   
   }
-@media (min-width: 400px)
-{
 
-
- /* Exstra Small devices ( up to 576px) */
-
-#anim
-  {
-    font-size: 1.02rem;
-  }
- 
-}
   @media (min-width: 576px)
   {
     .tab-content{
