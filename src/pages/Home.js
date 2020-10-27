@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import gsap from 'gsap';
 import "animate.css/animate.min.css";
 import Navigation from '../components/navigation';
+import Footer from '../components/footer';
 import Typewriter from '../components/typewriter';
 import projects from "../utils/projects.json";
 import ProjectTag from '../components/ProjectTag';
@@ -42,7 +43,7 @@ function ToRenderEverything() {
         <Navigation />
         <main>
           <div className="card" id="cardGreeting" style={{ alignItems: "center" }}>
-            <img className="card-img" id="cardImage1" src="./assets/images/SergeyProfile.png"
+            <img className="card-img" id="cardImage1" src={ process.env.PUBLIC_URL+"/./assets/images/sergeyprofile.png"}
               alt="Sergey's Profile" height="80%" />
             <div className="card-img-overlay">
               <figure id="cloud">
@@ -55,16 +56,16 @@ function ToRenderEverything() {
                   <Typewriter text='E-Mail:' />
                   <a title="Contact Email" href="mailto:sbolotnikov@gmail.com"><Typewriter text='sbolotnikov@gmail.com' /></a>
                   <br /><Typewriter text='My networks:' /> 
-                  <span className="n"><a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
-                      <span className="fab"><i className="fa fa-facebook-official" aria-hidden="true"></i></span>
-                    </a></span>
-                    <span className="n"><a id="github" href="https://github.com/sbolotnikov" target="_blank" rel="noopener noreferrer" title="Follow on GitHub">
-                      <span className="fab"><i className="fa fa-github" aria-hidden="true"></i></span>
-                    </a></span>
-                    <span className="n"> <a id="linkedin" href="https://www.linkedin.com/in/sergey-bolotnikov-10035617/" target="_blank" rel="noopener noreferrer"
+                  <a id="facebook" href="https://www.facebook.com/bolotnikov/" target="_blank" rel="noopener noreferrer" title="Follow on Facebook">
+                      <span className="n fab"><i className="fa fa-facebook-official" aria-hidden="true"></i></span>
+                    </a>
+                    <a id="github" href="https://github.com/sbolotnikov" target="_blank" rel="noopener noreferrer" title="Follow on GitHub">
+                      <span className="n fab"><i className="fa fa-github" aria-hidden="true"></i></span>
+                    </a>
+                     <a id="linkedin" href="https://www.linkedin.com/in/sergey-bolotnikov-10035617/" target="_blank" rel="noopener noreferrer"
                       title="Connect on Linkedin">
-                      <span className="fab"><i className="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                    </a></span>
+                      <span className="n fab"><i className="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                    </a>
                 </p>
               </figure>
             </div>
@@ -83,10 +84,8 @@ function ToRenderEverything() {
           </section>
 
         </main>
+        <Footer />
 
-                <footer className="footerclassName">
-                  &copy; Sergey Bolotnikov 2020
-        </footer>
       </div>
     </Fragment >
   )

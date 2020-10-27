@@ -15,6 +15,9 @@ function ProjectTag(props) {
                     <a className="link" href={props.site} target="_blank" rel="noopener noreferrer">
                         <h3 className="head1">{props.nameProject}</h3>
                     </a>
+                    <a className="link" href={props.site} target="_blank" rel="noopener noreferrer">
+                        <h5 className="head1">{props.site}</h5>
+                    </a>
                     <a className="link" href={props.github} target="_blank" rel="noopener noreferrer">
                         <p className="head1">Link to GitHub repository</p>
                     </a>
