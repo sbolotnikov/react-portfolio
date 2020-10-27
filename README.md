@@ -99,7 +99,7 @@ Make sure to update your LinkedIn Profile with the new skills you've acquired si
 
 ## Results
 
-![React Portfolio presentation](\public\assets\images\port-final.gif)
+![React Portfolio presentation](public\assets\images\port-final.gif)
 
 final website link :
 https://sbolotnikov.github.io/react-portfolio
