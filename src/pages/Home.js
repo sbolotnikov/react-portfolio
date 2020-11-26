@@ -60,7 +60,6 @@ function ToRenderEverything() {
               <Animated animationIn="fadeInRightBig" animationOut="fadeOut" animationInDuration={2000}   isVisible={true}>
                 <img id="cardImage1" src={process.env.PUBLIC_URL + "/./assets/images/sergeyprofile.png"}
                   style={{ borderColor: "transparent", height: "70vh", zIndex:'-1' }} alt="Sergey's Profile" />
-
               </Animated>
               
               <figure id="cloud" className={"d-flex flex-column justify-content-center text-center position-absolute"} style={{width: (hight>width) ?'95vw': (width>650) && (hight>400) ? '40vw':'80vw'}}>
