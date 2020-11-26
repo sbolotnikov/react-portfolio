@@ -17,13 +17,13 @@ function ControlledTabs() {
           activeKey={key}
           onSelect={(k) => setKey(k)}>
           <Tab eventKey="fullStack" title="Full Stack">
-            {projects.filter(item => (item.type === "Full Stack")).map((item, i) => <ProjectTag {...item} key={"item-" + i} />)}
+            {projects.filter(item => (item.type === "Full Stack")).map((item, i) => <ProjectTag {...item} num={i} key={"item-" + i} />)}
           </Tab>
           <Tab eventKey="frontEnd" title="Front End">
-            {projects.filter(item => (item.type === "Front End")).map((item, i) => <ProjectTag {...item} key={"item-" + i} />)}
+            {projects.filter(item => (item.type === "Front End")).map((item, i) => <ProjectTag {...item} num={i} key={"item-" + i} />)}
           </Tab>
           <Tab eventKey="backEnd" title="Back End">
-            {projects.filter(item => (item.type === "Back End")).map((item, i) => <ProjectTag {...item} key={"item-" + i} />)}
+            {projects.filter(item => (item.type === "Back End")).map((item, i) => <ProjectTag {...item} num={i} key={"item-" + i} />)}
           </Tab>
         </Tabs>
       </main>

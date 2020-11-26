@@ -17,15 +17,6 @@ function App() {
       </Router>
     </div>
 
-
-
-
-       
-      //   <Main />
-      // </Container>
-
-
-
     );
   }
 

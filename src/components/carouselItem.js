@@ -4,9 +4,7 @@ function CarouselItem(props) {
   return (
 
     <Carousel>
-      { props.carArr.map((item, i) => {
-        console.log(item.link);
-        
+      { props.carArr.map((item, i) => {       
         return (
           <Carousel.Item key={"item-" + i} >
             <img

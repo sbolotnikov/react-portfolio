@@ -5,12 +5,13 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "./style.css";
 
 function ProjectTag(props) {
+    console.log('animate__bounceIn' + (props.num % 2 ? 'Right':'Left'))
     return (
         <section className="card app">
             <ScrollAnimation animateIn={'animate__' + props.animIn[0]} animateOut={'animate__' + props.animOut[0]}>
                  <CarouselItem carArr={props.carouselArr} />
             </ScrollAnimation>
-            <ScrollAnimation animateIn={'animate__' + props.animIn[1]} animateOut={'animate__' + props.animOut[1]}>
+            <ScrollAnimation animateIn={'animate__'+props.animIn[1] + (props.num % 2 ? 'Left':'Right')} animateOut={'animate__'+ props.animOut[1] + (props.num % 2 ? "Left":"Right")}>
                 <figure className="description">
                     <a className="link" href={props.site} target="_blank" rel="noopener noreferrer">
                         <h3 className="head1">{props.nameProject}</h3>

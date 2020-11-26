@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navigation(props) {
     const [show, setShow] = useState(true);
     return (
-        <div className="fixed-top" style={{ maxWidth: "1440px", marginLeft: "auto", marginRight: "auto" }}>
+        <div className="fixed-top" style={{ maxWidth: "1440px", marginLeft: "auto", marginRight: "auto", zIndex:"300" }}>
             <div className={(show ? "show" : "") + " collapse"} id="navbarToggleExternalContent">
                 <div className="row" id="Row1">
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3" id="Brand">

@@ -1,233 +1,408 @@
 [
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
+        "site": "https://mern-ballroom.herokuapp.com/",
+        "nameProject": "MERN Ballroom Studio",
+        "featured": true,
+        "type": "Full Stack",
+        "github": "https://github.com/sbolotnikov/Ballroom-Studio-MERN/",
+        "description": "MERN Ballroom Studio is a group project using the MongoDB, Express, React and Node.js stack. Lesser technologies include Mongoose, Passport, Google OAuth20, BCryptJS, Nodemailer, Cloudinary, dotenv, Bootstrap-react, and more. This demonstrates full usage of the MERN Stack in a realistic scenario by creating a scheduling, billing, and community platform that is practical for nearly any type of event or class-based business or community. ",
+        "carouselArr": [
+            {
+                "link": "./assets/images/mernstudio/screenshot.png",
+                "alt": "First slide",
+                "text": "Greating on home page"
+            },
+            {
+                "link": "./assets/images/mernstudio/screenshot2.png",
+                "alt": "Second slide",
+                "text": "Sign up form"
+            },
+            {
+                "link": "./assets/images/mernstudio/screenshot3.png",
+                "alt": "Third slide",
+                "text": "session selection menu"
+            },
+            {
+                "link": "./assets/images/mernstudio/screenshot4.png",
+                "alt": "Forth slide",
+                "text": "Billboard and direct messaging"
+            },
+            {
+                "link": "./assets/images/mernstudio/screenshot5.png",
+                "alt": "Fifth slide",
+                "text": "Invoices screenshot"
+            }
+        ]
+    },
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://sbolotnikov.github.io/employee-directory-react/",
         "nameProject": "React Employee Directory",
         "featured": true,
         "type": "Full Stack",
         "github": "https://github.com/sbolotnikov/employee-directory-react",
-        "description" : "This project creates a employee directory with React. It requires to break up application's UI into components, manage component state, and respond to user events. Using faker.js I get a table of random users, when the user loads the page, a table of employees should render. <br /><br /> It would be particularly helpful to be able to filter employees by name, date of birth, email, phone number and sort the table by 4 different categories",
-        "carouselArr" : [
-        {   "link": "./assets/images/emp-dir-react/img1.png",
-            "alt": "First slide",
-            "text": "Overall page look with sorting by phone number ascending"},
-        {   "link": "./assets/images/emp-dir-react/img2.png",
-            "alt": "Second slide",
-            "text": "Example of sorting by email descending" },
-        {   "link": "./assets/images/emp-dir-react/img3.png",
-            "alt": "Third slide",
-            "text": "Example of sorting by name ascending" },
-        {   "link": "./assets/images/emp-dir-react/img4.png",
-            "alt": "Forth slide",
-            "text": "Example of sorting by date of birth ascending" }                   
-                                    ]
+        "description": "This project creates a employee directory with React. It requires to break up application's UI into components, manage component state, and respond to user events. Using faker.js I get a table of random users, when the user loads the page, a table of employees should render. <br /><br /> It would be particularly helpful to be able to filter employees by name, date of birth, email, phone number and sort the table by 4 different categories",
+        "carouselArr": [
+            {
+                "link": "./assets/images/emp-dir-react/img1.png",
+                "alt": "First slide",
+                "text": "Overall page look with sorting by phone number ascending"
+            },
+            {
+                "link": "./assets/images/emp-dir-react/img2.png",
+                "alt": "Second slide",
+                "text": "Example of sorting by email descending"
+            },
+            {
+                "link": "./assets/images/emp-dir-react/img3.png",
+                "alt": "Third slide",
+                "text": "Example of sorting by name ascending"
+            },
+            {
+                "link": "./assets/images/emp-dir-react/img4.png",
+                "alt": "Forth slide",
+                "text": "Example of sorting by date of birth ascending"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInLeft"],
-        "animOut": ["flipOutX", "bounceOutLeft"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://afternoon-chamber-99661.herokuapp.com/",
         "nameProject": "Fitness Tracker",
         "featured": true,
         "type": "Full Stack",
         "github": "https://github.com/sbolotnikov/fitnessTracker",
-        "description" : " Fitness Tracker utilizes MongoDB to track a user's daily exercises. Weekly workout statistics are reflected on Dashboard charts.",
-        "carouselArr" : [
-        {   "link": "./assets/images/fitness/welcome_screen.png",
-            "alt": "First slide",
-            "text": "Welcome screen"},
-        {   "link": "./assets/images/fitness/cardio_input.png",
-            "alt": "Second slide",
-            "text": "Cardio workout input screenshot" },
-        {   "link": "./assets/images/fitness/resistance_input.png",
-            "alt": "Third slide",
-            "text": "Resistance workout input screenshot" },
-        {   "link": "./assets/images/fitness/workout_dashboard.png",
-            "alt": "Forth slide",
-            "text": "Workout dashboard screenshot" }                   
-                                    ]
+        "description": " Fitness Tracker utilizes MongoDB to track a user's daily exercises. Weekly workout statistics are reflected on Dashboard charts.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/fitness/welcome_screen.png",
+                "alt": "First slide",
+                "text": "Welcome screen"
+            },
+            {
+                "link": "./assets/images/fitness/cardio_input.png",
+                "alt": "Second slide",
+                "text": "Cardio workout input screenshot"
+            },
+            {
+                "link": "./assets/images/fitness/resistance_input.png",
+                "alt": "Third slide",
+                "text": "Resistance workout input screenshot"
+            },
+            {
+                "link": "./assets/images/fitness/workout_dashboard.png",
+                "alt": "Forth slide",
+                "text": "Workout dashboard screenshot"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://mighty-oasis-93514.herokuapp.com/",
         "nameProject": "Online/Offline Budget Trackers",
         "featured": true,
         "type": "Full Stack",
         "github": "https://github.com/sbolotnikov/PWA-Budget-Tracker",
-        "description" : "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. <br /><br /><strong>Offline Functionality:</strong><br />Enter deposits offline,<br />Enter expenses offline<br /><br /><strong>When brought back online:</strong><br />Offline entries should be added to tracker.",
-        "carouselArr" : [
-        {   "link": "./assets/images/budget-tracker/img1.png",
-            "alt": "First slide",
-            "text": "App screenshot example:"}               
-                                    ]
+        "description": "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. <br /><br /><strong>Offline Functionality:</strong><br />Enter deposits offline,<br />Enter expenses offline<br /><br /><strong>When brought back online:</strong><br />Offline entries should be added to tracker.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/budget-tracker/img1.png",
+                "alt": "First slide",
+                "text": "App screenshot example:"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInLeft"],
-        "animOut": ["flipOutX", "bounceOutLeft"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://guarded-hamlet-46204.herokuapp.com/",
         "nameProject": "Full-stack MMA School",
         "featured": true,
         "type": "Full Stack",
         "github": "https://github.com/mc4506/martial-art-school-management",
-        "description" : "Full Stack MMA School is an application for creating and managing classNamees for a martial arts school. Instructors are able to log in and create classNamees based on user skill level and preference for in-person or virtual lessons, and coordinate className size if constraints are required by local health ordinances. Students and instructors can also post messages and communicate with each other through the platform.",
-        "carouselArr" : [
-        {   "link": "./assets/images/mmaschool/desktop-login.jpg",
-            "alt": "First slide",
-            "text": "Front page on desktop with Google sign in option"},
-        {   "link": "./assets/images/mmaschool/chat.jpg",
-            "alt": "Second slide",
-            "text": "Special Studio Chat named KICKS" },
-        {   "link": "./assets/images/mmaschool/signingtoclass.jpg",
-            "alt": "Third slide",
-            "text": "Signing to class as a student" },
-        {   "link": "./assets/images/mmaschool/teacherprofile.jpg",
-            "alt": "Forth slide",
-            "text": "Teacher's Profile check who is present" }                   
-                                    ]
+        "description": "Full Stack MMA School is an application for creating and managing classNamees for a martial arts school. Instructors are able to log in and create classNamees based on user skill level and preference for in-person or virtual lessons, and coordinate className size if constraints are required by local health ordinances. Students and instructors can also post messages and communicate with each other through the platform.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/mmaschool/desktop-login.jpg",
+                "alt": "First slide",
+                "text": "Front page on desktop with Google sign in option"
+            },
+            {
+                "link": "./assets/images/mmaschool/chat.jpg",
+                "alt": "Second slide",
+                "text": "Special Studio Chat named KICKS"
+            },
+            {
+                "link": "./assets/images/mmaschool/signingtoclass.jpg",
+                "alt": "Third slide",
+                "text": "Signing to class as a student"
+            },
+            {
+                "link": "./assets/images/mmaschool/teacherprofile.jpg",
+                "alt": "Forth slide",
+                "text": "Teacher's Profile check who is present"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://andrewdalba.github.io/what-is-for-dinner/",
         "nameProject": "APP: What's For Dinner?",
         "featured": true,
         "type": "Front End",
         "github": "https://github.com/andrewdalba/what-is-for-dinner",
-        "description" : "A helpful application to locate restaurants, find recipes, and recipe videos based on the users food preferences and location.",
-        "carouselArr" : [
-        {   "link": "./assets/images/dinner/2-restaurant-search-results.png",
-            "alt": "First slide",
-            "text": "restaurant search results"},
-        {   "link": "./assets/images/dinner/4-dish-search-results.png",
-            "alt": "Second slide",
-            "text": "results of search for specific dish" },
-        {   "link": "./assets/images/dinner/5-details-on-recipe.png",
-            "alt": "Third slide",
-            "text": "detailed look ingridients&how-to recipe" }               
-                                    ]
+        "description": "A helpful application to locate restaurants, find recipes, and recipe videos based on the users food preferences and location.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/dinner/2-restaurant-search-results.png",
+                "alt": "First slide",
+                "text": "restaurant search results"
+            },
+            {
+                "link": "./assets/images/dinner/4-dish-search-results.png",
+                "alt": "Second slide",
+                "text": "results of search for specific dish"
+            },
+            {
+                "link": "./assets/images/dinner/5-details-on-recipe.png",
+                "alt": "Third slide",
+                "text": "detailed look ingridients&how-to recipe"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInLeft"],
-        "animOut": ["flipOutX", "bounceOutLeft"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://sbolotnikov.github.io/weather-dashboard/",
         "nameProject": "Weather-Dashboard",
         "featured": true,
         "type": "Front End",
         "github": "https://github.com/sbolotnikov/weather-dashboard",
-        "description" : "An interactive weather application that displays the forecast in a stylish fashion and stores the user's previously searched locations.",
-        "carouselArr" : [
-        {   "link": "./assets/images/weather/celsius.png",
-            "alt": "First slide",
-            "text": "List of maps displayed from openweathermap API using leaflet API and openstreetmap tiles and switching to Celsious"},
-        {   "link": "./assets/images/weather/5-diffrent-city-click.png",
-            "alt": "Second slide",
-            "text": "You can choose diffrent city also it change background from rapidapi API" },
-        {   "link": "./assets/images/weather/5-diffrent-city-click.png",
-            "alt": "Third slide",
-            "text": "Click on the city to find out weather" },
-        {   "link": "./assets/images/weather/8-ipad-look.png",
-            "alt": "Forth slide",
-            "text": "App on Iphone, IPad" }                   
-                                    ]
+        "description": "An interactive weather application that displays the forecast in a stylish fashion and stores the user's previously searched locations.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/weather/celsius.png",
+                "alt": "First slide",
+                "text": "List of maps displayed from openweathermap API using leaflet API and openstreetmap tiles and switching to Celsious"
+            },
+            {
+                "link": "./assets/images/weather/5-diffrent-city-click.png",
+                "alt": "Second slide",
+                "text": "You can choose diffrent city also it change background from rapidapi API"
+            },
+            {
+                "link": "./assets/images/weather/5-diffrent-city-click.png",
+                "alt": "Third slide",
+                "text": "Click on the city to find out weather"
+            },
+            {
+                "link": "./assets/images/weather/8-ipad-look.png",
+                "alt": "Forth slide",
+                "text": "App on Iphone, IPad"
+            }
+        ]
     },
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://boiling-badlands-26235.herokuapp.com/",
         "nameProject": "Eat Da Burger",
         "featured": false,
         "type": "Full Stack",
         "github": "https://github.com/sbolotnikov/Eat_Da_Burger",
-        "description" : "Eat Da Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, app will display the burger on the top part of the page- waiting to be devoured. Each burger in the waiting area also has a `Eat Me!` button. When the user clicks it, the burger will move to the lower portion of the page. App will store every burger in a database, whether devoured or not. Burger also has delete button to erase it from the database. Image of the burger provided by running pexel API if there is no image it display default image.",
-        "carouselArr" : [
-        {   "link": "./assets/images/burger-1/img1.png",
-            "alt": "First slide",
-            "text": "Desktop version Form and Ready section"},
-        {   "link": "./assets/images/burger-1/img2.png",
-            "alt": "Second slide",
-            "text": "Desktop version Ready and Devoured section" }                  
-                                    ]
-    },               
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+        "description": "Eat Da Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, app will display the burger on the top part of the page- waiting to be devoured. Each burger in the waiting area also has a `Eat Me!` button. When the user clicks it, the burger will move to the lower portion of the page. App will store every burger in a database, whether devoured or not. Burger also has delete button to erase it from the database. Image of the burger provided by running pexel API if there is no image it display default image.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/burger-1/img1.png",
+                "alt": "First slide",
+                "text": "Desktop version Form and Ready section"
+            },
+            {
+                "link": "./assets/images/burger-1/img2.png",
+                "alt": "Second slide",
+                "text": "Desktop version Ready and Devoured section"
+            }
+        ]
+    },
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://sbolotnikov.github.io/Day-planner/",
         "nameProject": "Day Planner",
         "featured": false,
         "type": "Front End",
         "github": "https://github.com/sbolotnikov/Day-planner",
-        "description" : "A simple calendar application that allows the user to save events for each hour of the day.",
-        "carouselArr" : [
-        {   "link": "./assets/images/calendar/4-click-to-edit-on description.png",
-            "alt": "First slide",
-            "text": "Overall App look. To Edit click the appointment bar"},
-        {   "link": "./assets/images/calendar/5-edit-apptmt-view.png",
-            "alt": "Second slide",
-            "text": "Edit/Add appointment view" },
-        {   "link": "./assets/images/calendar/6-click-to-erase.png",
-            "alt": "Third slide",
-            "text": "Click to erase button" },
-        {   "link": "./assets/images/calendar/7-erased.png",
-            "alt": "Forth slide",
-            "text": "Erase result view" }                   
-                                    ]
-    },               
-    {       
-        "animIn": ["flipInX", "bounceInLeft"],
-        "animOut": ["flipOutX", "bounceOutLeft"],
+        "description": "A simple calendar application that allows the user to save events for each hour of the day.",
+        "carouselArr": [
+            {
+                "link": "./assets/images/calendar/4-click-to-edit-on description.png",
+                "alt": "First slide",
+                "text": "Overall App look. To Edit click the appointment bar"
+            },
+            {
+                "link": "./assets/images/calendar/5-edit-apptmt-view.png",
+                "alt": "Second slide",
+                "text": "Edit/Add appointment view"
+            },
+            {
+                "link": "./assets/images/calendar/6-click-to-erase.png",
+                "alt": "Third slide",
+                "text": "Click to erase button"
+            },
+            {
+                "link": "./assets/images/calendar/7-erased.png",
+                "alt": "Forth slide",
+                "text": "Erase result view"
+            }
+        ]
+    },
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://sbolotnikov.github.io/Code-Quiz/",
         "nameProject": "Code Quiz",
         "featured": false,
         "type": "Front End",
         "github": "https://github.com/sbolotnikov/Code-Quiz",
-        "description" : "Multiple Choice Quiz A timed quiz. Time is deducted for selecting incorrect answers. Save and sort previous results. Gives details of the user's answers",
-        "carouselArr" : [
-        {   "link": "./assets/images/quiz/1-start-panel.png",
-            "alt": "First slide",
-            "text": "Start up panel"},
-        {   "link": "./assets/images/quiz/3-example-of-the-response-to-user-input.png",
-            "alt": "Second slide",
-            "text": "App interract with customer on user's input" },
-        {   "link": "./assets/images/quiz/5-display-of-the-stored-results.png",
-            "alt": "Third slide",
-            "text": "Results are stored and sorted" },
-        {   "link": "./assets/images/quiz/6-detailed-look-of-the-individual-results.png",
-            "alt": "Forth slide",
-            "text": "Individual details of each test" }                   
-                                    ]
-    },               
-    {       
-        "animIn": ["flipInX", "bounceInRight"],
-        "animOut": ["flipOutX", "bounceOutRight"],
+        "description": "Multiple Choice Quiz A timed quiz. Time is deducted for selecting incorrect answers. Save and sort previous results. Gives details of the user's answers",
+        "carouselArr": [
+            {
+                "link": "./assets/images/quiz/1-start-panel.png",
+                "alt": "First slide",
+                "text": "Start up panel"
+            },
+            {
+                "link": "./assets/images/quiz/3-example-of-the-response-to-user-input.png",
+                "alt": "Second slide",
+                "text": "App interract with customer on user's input"
+            },
+            {
+                "link": "./assets/images/quiz/5-display-of-the-stored-results.png",
+                "alt": "Third slide",
+                "text": "Results are stored and sorted"
+            },
+            {
+                "link": "./assets/images/quiz/6-detailed-look-of-the-individual-results.png",
+                "alt": "Forth slide",
+                "text": "Individual details of each test"
+            }
+        ]
+    },
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://youtu.be/mlQAWMMPP2w",
         "nameProject": "CLI App: Team Information Chart",
         "featured": false,
         "type": "Back End",
         "github": "https://github.com/sbolotnikov/team-info-chart",
-        "description" : "When the user has completed building the team,the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. (For instructional video click on the heading)",
-        "carouselArr" : [
-        {   "link": "./assets/images/team-info-chart/results.jpg",
-            "alt": "First slide",
-            "text": "finished team roster results"},
-        {   "link": "./assets/images/team-info-chart/dataInput.png",
-            "alt": "Second slide",
-            "text": "Input Data CLI style" }                   
-                                    ]
-    },               
-    {       
-        "animIn": ["flipInX", "bounceInLeft"],
-        "animOut": ["flipOutX", "bounceOutLeft"],
+        "description": "When the user has completed building the team,the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. (For instructional video click on the heading)",
+        "carouselArr": [
+            {
+                "link": "./assets/images/team-info-chart/results.jpg",
+                "alt": "First slide",
+                "text": "finished team roster results"
+            },
+            {
+                "link": "./assets/images/team-info-chart/dataInput.png",
+                "alt": "Second slide",
+                "text": "Input Data CLI style"
+            }
+        ]
+    },
+    {
+        "animIn": [
+            "flipInX",
+            "bounceIn"
+        ],
+        "animOut": [
+            "flipOutX",
+            "bounceOut"
+        ],
         "site": "https://youtu.be/T3FLJTATWkg",
         "nameProject": "CLI App: Employee tracker",
         "featured": false,
         "type": "Back End",
         "github": "https://github.com/sbolotnikov/employee_tracker_CLI",
-        "description" : "User has a menu of things that could be done:<br />Employee- Add, Update Role or Manager, Delete, View All<br />Role Add, Update, Delete, View All<br /> Departments Add, Update, Delete, View<br /> Views store All views named above and Employees by Manager, by Department, and Departments Salary budget(For instructional video click on the heading)",
-        "carouselArr" : [
-        {   "link": "./assets/images/employeetrack/img3.gif",
-            "alt": "First slide",
-            "text": "Views example:"}              
-                                    ]
-    }                     
+        "description": "User has a menu of things that could be done:<br />Employee- Add, Update Role or Manager, Delete, View All<br />Role Add, Update, Delete, View All<br /> Departments Add, Update, Delete, View<br /> Views store All views named above and Employees by Manager, by Department, and Departments Salary budget(For instructional video click on the heading)",
+        "carouselArr": [
+            {
+                "link": "./assets/images/employeetrack/img3.gif",
+                "alt": "First slide",
+                "text": "Views example:"
+            }
+        ]
+    }
 ]
