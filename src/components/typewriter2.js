@@ -8,15 +8,15 @@ function Typewriter2(props) {
     <h1>
       {textArr.map((charItem, i) =>
         <span>
-          <Animated animationOut="fadeOut" animationOutDuration={15000} animationOutDelay={4000} isVisible={false}>
-            <Animated animationIn="zoomIn" animationInDuration={10000} animationInDelay={4000} isVisible={true}>
+          <Animated animationOut="fadeOut" animationOutDuration={17000} animationOutDelay={3000} isVisible={false}>
+            <Animated animationIn="zoomIn" animationInDuration={14000} animationInDelay={3000} isVisible={true}>
               <Animated animationIn="fadeInDownBig" animationInDuration={1000} animationInDelay={300 * i + 4000} isVisible={true}>
                 <Item2 charItem={charItem} n={i} key={"item-" + i} />
               </Animated>
-              <Animated animationIn="fadeInDownBig" animationInDuration={1000} animationInDelay={300 * i + 4050} isVisible={true}>
+              <Animated animationIn="fadeInDownBig" animationInDuration={1000} animationInDelay={300 * i + 4070} isVisible={true}>
                 <Item2 charItem={charItem} n={i} key={"item-" + i} />
               </Animated>
-              <Animated animationIn="fadeInDownBig" animationInDuration={1000} animationInDelay={300 * i + 4100} isVisible={true}>
+              <Animated animationIn="fadeInDownBig" animationInDuration={1000} animationInDelay={300 * i + 4120} isVisible={true}>
                 <Item2 charItem={charItem} n={i} key={"item-" + i} />
 
               </Animated>

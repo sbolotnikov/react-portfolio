@@ -63,7 +63,7 @@ function ToRenderEverything() {
 
               </Animated>
               
-              <figure id="cloud" className={"d-flex flex-column justify-content-center text-center position-absolute"}>
+              <figure id="cloud" className={"d-flex flex-column justify-content-center text-center position-absolute"} style={{width: (hight>width) ?'95vw': (width>650) && (hight>400) ? '40vw':'80vw'}}>
               <Typewriter2 text='WELCOME TO UNIMATRIX' />
                 <Textfit mode="multi">
                   <Typewriter text='Hello, My name is ' /><strong><Typewriter text='Sergey Bolotnikov.' /></strong>

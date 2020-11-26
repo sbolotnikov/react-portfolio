@@ -28,7 +28,7 @@
   max-width: 800px;
   top: 58vh;
   height:40vh;
-  width: 95vw;
+  
 }
 #facebook {
   background-color: transparent;
@@ -255,9 +255,9 @@ h4.card-text
   .letterStyle{
     position:absolute;
     color: red;
-    top: -20vh;
+    top: -30vh;
     font-family:"Anton";
-    font-size:7vw;
+    font-size:10vw;
     z-index:400;
     opacity: 1;
     
