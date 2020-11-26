@@ -16,27 +16,27 @@
         "description": "MERN Ballroom Studio is a group project using the MongoDB, Express, React and Node.js stack. Lesser technologies include Mongoose, Passport, Google OAuth20, BCryptJS, Nodemailer, Cloudinary, dotenv, Bootstrap-react, and more. This demonstrates full usage of the MERN Stack in a realistic scenario by creating a scheduling, billing, and community platform that is practical for nearly any type of event or class-based business or community. ",
         "carouselArr": [
             {
-                "link": "./assets/images/mernstudio/screenshot.png",
+                "link": "./assets/images/mernstudio/screen.png",
                 "alt": "First slide",
                 "text": "Greating on home page"
             },
             {
-                "link": "./assets/images/mernstudio/screenshot2.png",
+                "link": "./assets/images/mernstudio/screen2.png",
                 "alt": "Second slide",
                 "text": "Sign up form"
             },
             {
-                "link": "./assets/images/mernstudio/screenshot3.png",
+                "link": "./assets/images/mernstudio/screen3.png",
                 "alt": "Third slide",
                 "text": "session selection menu"
             },
             {
-                "link": "./assets/images/mernstudio/screenshot4.png",
+                "link": "./assets/images/mernstudio/screen4.png",
                 "alt": "Forth slide",
                 "text": "Billboard and direct messaging"
             },
             {
-                "link": "./assets/images/mernstudio/screenshot5.png",
+                "link": "./assets/images/mernstudio/screen5.png",
                 "alt": "Fifth slide",
                 "text": "Invoices screenshot"
             }
