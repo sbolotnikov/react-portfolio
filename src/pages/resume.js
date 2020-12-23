@@ -20,7 +20,7 @@ function Resume() {
         <Row style={{ marginTop: "100px" }}>
           <Col md={12} lg={8}>
             <h2>Resume</h2>
-            <a href={process.env.PUBLIC_URL + '/./assets/images/old.pdf'} target="_blank" rel="noopener noreferrer" download><button
+            <a href={process.env.PUBLIC_URL + '/./assets/images/sergey_bolotnikov_fs_resume.pdf'} target="_blank" rel="noopener noreferrer" download><button
               type="button" id="btn2Modal">Download</button></a>
             <div className="container" style={{ maxWidth: "100%", overflow: "hidden" }}>
               <Pdfread id="scrolly-div" file={process.env.PUBLIC_URL + '/./assets/images/sergey_bolotnikov_fs_resume.pdf'} />
@@ -46,7 +46,7 @@ function Resume() {
             <h2 style={{ paddingTop: '2em' }}>Sergey Bolotnikov</h2>
             <h4 style={{ color: 'grey' }}>Programmer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>a full-stack developer who is driven by the pursuit of customer satisfection. My goal is to solve problems with the most effective and direct solution and am eager to learn and work with the latest web technologies.</p>
+            <p>a full-stack developer who is driven by the pursuit of customer satisfaction. My goal is to solve problems with the most effective and direct solution and am eager to learn and work with the latest web technologies.</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
             <p>3040 Edwin Ave. Apt. #2G, Fort Lee, NJ 07024</p>

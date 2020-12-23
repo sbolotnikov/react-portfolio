@@ -13,6 +13,16 @@
 {
   opacity: 0;
 }
+.portrate{
+  opacity: 1;
+}
+
+@keyframes animate {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+
 .glow
 {
  
@@ -251,6 +261,25 @@ h4.card-text
   a:hover {
     background-position: 0 100%;
   }
+  a.linkHome {
+    position: relative;
+    display: block;
+    color: royalblue;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, royalblue));
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-transition: background-position 500ms ease;
+    transition: background-position 500ms ease;
+    text-decoration: none;
+  }
+  a:hover {
+    background-position: 0 100%;
+  }
 
   .letterStyle{
     position:absolute;
@@ -262,3 +291,4 @@ h4.card-text
     opacity: 1;
     
     }
+    /* #59aaa5 */

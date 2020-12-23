@@ -28,7 +28,7 @@ the default bootstrap theme or an unstyled HTML site.
 
 * Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-* If you want to go above and beyond, try using animations and react component libraries. (used: react-animate, Green Sox, animate.css, react-animate-on-scroll )
+* If you want to go above and beyond, try using animations and react component libraries. (used: react-animate, Green Sox, animate.css, react-animate-on-scroll,svg )
 
 
 
