@@ -18,11 +18,11 @@ function Navigation(props) {
                             </div>
                             <div className="col-4 col-sm-4 col-md-3 col-lg-2">
                                 <Link to="/projects" className="NavA"><span
-                                    className="NavP">portfolio</span></Link>
+                                    className="NavP">Portfolio</span></Link>
                             </div>
                             <div className="col-4 col-sm-4 col-md-3 col-lg-2">
                                 <a title="contact" href="mailto:sbolotnikov@gmail.com" className="NavA"><span
-                                    className="NavP">contact</span></a>
+                                    className="NavP">Contact</span></a>
                             </div>
                             <div className="col-4 col-sm-4 col-md-3 col-lg-3">
                                 <Link to="/resume" className="NavA"><span
