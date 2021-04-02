@@ -8,7 +8,7 @@ import Typewriter from '../components/typewriter';
 import Typewriter2 from '../components/typewriter2';
 import projects from "../utils/projects.json";
 import ProjectTag from '../components/ProjectTag';
-import { Textfit } from 'react-textfit';
+import Textfit  from 'react-textfit';
 var i = 0;
 function ToRenderEverything() {
 
