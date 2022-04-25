@@ -170,7 +170,7 @@ function ToRenderEverything() {
                   <path style={{ opacity: 0 }} d="M229.5 1366.5L260.5 1386H334L317 1375L276.5 1242.5L260.5 1230H243L229.5 1242.5L222.5 1271V1304.5V1345L229.5 1366.5Z" fill="#383838" />
                 </svg>
                 <img id="cardImage2" src={process.env.PUBLIC_URL + "/./assets/images/sergeyprofile.png"}
-                  style={{ position:"absolute", top: "100%-15vw", borderColor: "transparent", opacity:0, height: "70vh", zIndex: '-1' }} alt="Sergey's Profile" />
+                  style={{ position:"absolute", borderColor: "transparent", opacity:0, height: "70vh",marginTop: ".5vh", zIndex: '-1' }} alt="Sergey's Profile" />
                 {/* </Animated> */}
               
               <figure id="cloud" className={"d-flex flex-column justify-content-center text-center position-absolute"} style={{ width: (hight > width) ? '95vw' : (width > 650) && (hight > 400) ? '40vw' : '80vw' }}>

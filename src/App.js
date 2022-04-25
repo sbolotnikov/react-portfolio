@@ -2,7 +2,7 @@
 import React from 'react';
 import "./css/style.css";
 import "./css/about_style.css";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Projects from "./pages/projects";
 import Resume from "./pages/resume";
 import {HashRouter as Router, Route} from 'react-router-dom';
