@@ -78,7 +78,8 @@ function ToRenderEverything() {
               />
               
                 {/* <Animated animateIn='wobble' initiallyVisible={true} animationOut="fadeOut" animationInDuration={2000}   isVisible={true}> */}
-                <svg id="cardImage1" width="1123" height="1389" viewBox="0 0 1123 1389" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position:"relative", height: "70vh", marginTop: "2.5vh", zIndex: '0' }}>
+                <div style={{ position:"relative", height: "70vh", width:"56.6vh", marginTop: "2.5vh",}}>
+                <svg id="cardImage1" viewBox="0 0 1123 1389" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position:"absolute",top:0,left:0, height: "100%", width: "100%",  zIndex: '0' }}>
                   <path style={{ opacity: 0 }} d="M513.5 1332.5L520.5 1385L838 1389L833.5 1371L825 1341.5L815 1285.5L810 1240.5L804.5 1200L799 1139L796 1125L789 1119.5L785.5 1114V1106L786.5 1082.5L780 1087L763 1095.5L752 1106L741.5 1114L733 1125L727 1137.5L716.5 1150.5L699 1154.5L680.5 1172.5L668.5 1186L658.5 1200L662 1192L668.5 1181.5L676.5 1168.5L662 1154.5L645 1150.5V1159.5L640 1170.5H629.5L614.5 1159.5L590.5 1143L574 1130.5L565 1119.5L554.5 1106L547.5 1114L542 1125L537 1137.5L531.5 1143L537 1154.5V1170.5L531.5 1184H525.5V1179.5L517.5 1164.5L505.5 1137.5L496 1114L472.5 1050.5V1067.5L477.5 1092L485.5 1130.5L491.5 1170.5L499 1214.5L505.5 1272.5L513.5 1332.5Z" fill="#A2B0C1" />
                   <path style={{ opacity: 0 }} d="M575.5 1133L598 1149.5L629 1170L639.5 1172L643.5 1167.5L645.5 1160.5L648 1151.5L633 1149.5L618 1133L598 1106.5L579.5 1085H569.5H561L554.5 1090.5V1106.5L561 1114.5L575.5 1133Z" fill="#414A54" />
                   <path style={{ opacity: 0 }} d="M703.5 1353L690.5 1347.5L680.5 1353L674.5 1363.5L680.5 1377.5L690.5 1382.5L698.5 1377.5L703.5 1373.5L707 1363.5L703.5 1353Z" fill="#19191E" />
@@ -170,7 +171,8 @@ function ToRenderEverything() {
                   <path style={{ opacity: 0 }} d="M229.5 1366.5L260.5 1386H334L317 1375L276.5 1242.5L260.5 1230H243L229.5 1242.5L222.5 1271V1304.5V1345L229.5 1366.5Z" fill="#383838" />
                 </svg>
                 <img id="cardImage2" src={process.env.PUBLIC_URL + "/./assets/images/sergeyprofile.png"}
-                  style={{ position:"absolute", borderColor: "transparent", opacity:0, height: "70vh",marginTop: ".5vh", zIndex: '-1' }} alt="Sergey's Profile" />
+                  style={{ position:"absolute", borderColor: "transparent", opacity:0,top:0,left:0, height: "100%",width: "100%",zIndex: '-1' }} alt="Sergey's Profile" />
+                  </div>
                 {/* </Animated> */}
               
               <figure id="cloud" className={"d-flex flex-column justify-content-center text-center position-absolute"} style={{ width: (hight > width) ? '95vw' : (width > 650) && (hight > 400) ? '40vw' : '80vw' }}>

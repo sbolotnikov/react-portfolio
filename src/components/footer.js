@@ -27,7 +27,7 @@ function Footer() {
                 <p>3040 Edwin Ave. Apt. #2G, Fort Lee, NJ 07024</p></a>
             <h5>Phone</h5>
             <p><a className="link" href="tel:917-916-2840">(917) 916-2840</a></p>
-        & copy; Sergey Bolotnikov 2020
+        &copy; Sergey Bolotnikov 2020
         </footer >
     )
 }
